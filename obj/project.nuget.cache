@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "p/kh0KuSYmXBnF/8CIBU6Q+Mn6+KFsKGU8btqbUnJX7AcpbxqwUzjSQS62gTq4Gh7VytzgDAdl7+YjGA++8zMQ==",
+  "dgSpecHash": "5X/dDyZrEK9bV1A1Wjzwc2uYtYOiezLJIAMbnbb+fDLcCShhXCFY6Z1bwsPV2CALzsHll3OPDKMJC/tGYpYfjw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Pyvas\\OneDrive\\Documents\\C-SK-01-Code\\Csharp\\quizz\\quizz\\quizz.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Pyvas\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\Pyvas\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\Pyvas\\.nuget\\packages\\npgsql\\8.0.3\\npgsql.8.0.3.nupkg.sha512"
+  ],
   "logs": []
 }
