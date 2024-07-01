@@ -32,3 +32,12 @@ C:\Users\Pyvas\OneDrive\Documents\C-SK-01-Code\Csharp\quizz\quizz\obj\Debug\net8
 C:\Users\Pyvas\OneDrive\Documents\C-SK-01-Code\Csharp\quizz\quizz\obj\Debug\net8.0\quizz.pdb
 C:\Users\Pyvas\OneDrive\Documents\C-SK-01-Code\Csharp\quizz\quizz\obj\Debug\net8.0\quizz.genruntimeconfig.cache
 C:\Users\Pyvas\OneDrive\Documents\C-SK-01-Code\Csharp\quizz\quizz\obj\Debug\net8.0\ref\quizz.dll
+C:\Users\Pyvas\OneDrive\Documents\C-SK-01-Code\Csharp\quizz\quizz\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\Pyvas\OneDrive\Documents\C-SK-01-Code\Csharp\quizz\quizz\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\Users\Pyvas\OneDrive\Documents\C-SK-01-Code\Csharp\quizz\quizz\bin\Debug\net8.0\MailKit.dll
+C:\Users\Pyvas\OneDrive\Documents\C-SK-01-Code\Csharp\quizz\quizz\bin\Debug\net8.0\MimeKit.dll
+C:\Users\Pyvas\OneDrive\Documents\C-SK-01-Code\Csharp\quizz\quizz\bin\Debug\net8.0\PdfSharpCore.dll
+C:\Users\Pyvas\OneDrive\Documents\C-SK-01-Code\Csharp\quizz\quizz\bin\Debug\net8.0\ICSharpCode.SharpZipLib.dll
+C:\Users\Pyvas\OneDrive\Documents\C-SK-01-Code\Csharp\quizz\quizz\bin\Debug\net8.0\SixLabors.Fonts.dll
+C:\Users\Pyvas\OneDrive\Documents\C-SK-01-Code\Csharp\quizz\quizz\bin\Debug\net8.0\SixLabors.ImageSharp.dll
+C:\Users\Pyvas\OneDrive\Documents\C-SK-01-Code\Csharp\quizz\quizz\bin\Debug\net8.0\de\PdfSharpCore.resources.dll
