@@ -1,31 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Pyvas\\OneDrive\\Documents\\C-SK-01-Code\\Csharp\\quizz\\quizz\\quizz.csproj": {}
+    "C:\\Users\\arova\\Documents\\Study Folder\\Github\\.NET_quizz\\quizz.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Pyvas\\OneDrive\\Documents\\C-SK-01-Code\\Csharp\\quizz\\quizz\\quizz.csproj": {
+    "C:\\Users\\arova\\Documents\\Study Folder\\Github\\.NET_quizz\\quizz.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Pyvas\\OneDrive\\Documents\\C-SK-01-Code\\Csharp\\quizz\\quizz\\quizz.csproj",
+        "projectUniqueName": "C:\\Users\\arova\\Documents\\Study Folder\\Github\\.NET_quizz\\quizz.csproj",
         "projectName": "quizz",
-        "projectPath": "C:\\Users\\Pyvas\\OneDrive\\Documents\\C-SK-01-Code\\Csharp\\quizz\\quizz\\quizz.csproj",
-        "packagesPath": "C:\\Users\\Pyvas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Pyvas\\OneDrive\\Documents\\C-SK-01-Code\\Csharp\\quizz\\quizz\\obj\\",
+        "projectPath": "C:\\Users\\arova\\Documents\\Study Folder\\Github\\.NET_quizz\\quizz.csproj",
+        "packagesPath": "C:\\Users\\arova\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\arova\\Documents\\Study Folder\\Github\\.NET_quizz\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Pyvas\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\arova\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -80,7 +74,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

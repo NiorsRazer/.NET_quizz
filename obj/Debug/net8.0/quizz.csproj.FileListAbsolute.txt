@@ -41,3 +41,46 @@ C:\Users\Pyvas\OneDrive\Documents\C-SK-01-Code\Csharp\quizz\quizz\bin\Debug\net8
 C:\Users\Pyvas\OneDrive\Documents\C-SK-01-Code\Csharp\quizz\quizz\bin\Debug\net8.0\SixLabors.Fonts.dll
 C:\Users\Pyvas\OneDrive\Documents\C-SK-01-Code\Csharp\quizz\quizz\bin\Debug\net8.0\SixLabors.ImageSharp.dll
 C:\Users\Pyvas\OneDrive\Documents\C-SK-01-Code\Csharp\quizz\quizz\bin\Debug\net8.0\de\PdfSharpCore.resources.dll
+C:\Users\arova\Documents\Study Folder\Github\.NET_quizz\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\arova\Documents\Study Folder\Github\.NET_quizz\bin\Debug\net8.0\appsettings.json
+C:\Users\arova\Documents\Study Folder\Github\.NET_quizz\bin\Debug\net8.0\quizz.staticwebassets.runtime.json
+C:\Users\arova\Documents\Study Folder\Github\.NET_quizz\bin\Debug\net8.0\quizz.exe
+C:\Users\arova\Documents\Study Folder\Github\.NET_quizz\bin\Debug\net8.0\quizz.deps.json
+C:\Users\arova\Documents\Study Folder\Github\.NET_quizz\bin\Debug\net8.0\quizz.runtimeconfig.json
+C:\Users\arova\Documents\Study Folder\Github\.NET_quizz\bin\Debug\net8.0\quizz.dll
+C:\Users\arova\Documents\Study Folder\Github\.NET_quizz\bin\Debug\net8.0\quizz.pdb
+C:\Users\arova\Documents\Study Folder\Github\.NET_quizz\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\Users\arova\Documents\Study Folder\Github\.NET_quizz\bin\Debug\net8.0\MailKit.dll
+C:\Users\arova\Documents\Study Folder\Github\.NET_quizz\bin\Debug\net8.0\MimeKit.dll
+C:\Users\arova\Documents\Study Folder\Github\.NET_quizz\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\arova\Documents\Study Folder\Github\.NET_quizz\bin\Debug\net8.0\Npgsql.dll
+C:\Users\arova\Documents\Study Folder\Github\.NET_quizz\bin\Debug\net8.0\PdfSharpCore.dll
+C:\Users\arova\Documents\Study Folder\Github\.NET_quizz\bin\Debug\net8.0\ICSharpCode.SharpZipLib.dll
+C:\Users\arova\Documents\Study Folder\Github\.NET_quizz\bin\Debug\net8.0\SixLabors.Fonts.dll
+C:\Users\arova\Documents\Study Folder\Github\.NET_quizz\bin\Debug\net8.0\SixLabors.ImageSharp.dll
+C:\Users\arova\Documents\Study Folder\Github\.NET_quizz\bin\Debug\net8.0\de\PdfSharpCore.resources.dll
+C:\Users\arova\Documents\Study Folder\Github\.NET_quizz\obj\Debug\net8.0\quizz.csproj.AssemblyReference.cache
+C:\Users\arova\Documents\Study Folder\Github\.NET_quizz\obj\Debug\net8.0\quizz.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arova\Documents\Study Folder\Github\.NET_quizz\obj\Debug\net8.0\quizz.AssemblyInfoInputs.cache
+C:\Users\arova\Documents\Study Folder\Github\.NET_quizz\obj\Debug\net8.0\quizz.AssemblyInfo.cs
+C:\Users\arova\Documents\Study Folder\Github\.NET_quizz\obj\Debug\net8.0\quizz.csproj.CoreCompileInputs.cache
+C:\Users\arova\Documents\Study Folder\Github\.NET_quizz\obj\Debug\net8.0\quizz.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\arova\Documents\Study Folder\Github\.NET_quizz\obj\Debug\net8.0\quizz.RazorAssemblyInfo.cache
+C:\Users\arova\Documents\Study Folder\Github\.NET_quizz\obj\Debug\net8.0\quizz.RazorAssemblyInfo.cs
+C:\Users\arova\Documents\Study Folder\Github\.NET_quizz\obj\Debug\net8.0\quizz.sourcelink.json
+C:\Users\arova\Documents\Study Folder\Github\.NET_quizz\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\arova\Documents\Study Folder\Github\.NET_quizz\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\arova\Documents\Study Folder\Github\.NET_quizz\obj\Debug\net8.0\staticwebassets\msbuild.quizz.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\arova\Documents\Study Folder\Github\.NET_quizz\obj\Debug\net8.0\staticwebassets\msbuild.build.quizz.props
+C:\Users\arova\Documents\Study Folder\Github\.NET_quizz\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.quizz.props
+C:\Users\arova\Documents\Study Folder\Github\.NET_quizz\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.quizz.props
+C:\Users\arova\Documents\Study Folder\Github\.NET_quizz\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\arova\Documents\Study Folder\Github\.NET_quizz\obj\Debug\net8.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\arova\Documents\Study Folder\Github\.NET_quizz\obj\Debug\net8.0\scopedcss\bundle\quizz.styles.css
+C:\Users\arova\Documents\Study Folder\Github\.NET_quizz\obj\Debug\net8.0\scopedcss\projectbundle\quizz.bundle.scp.css
+C:\Users\arova\Documents\Study Folder\Github\.NET_quizz\obj\Debug\net8.0\quizz.csproj.CopyComplete
+C:\Users\arova\Documents\Study Folder\Github\.NET_quizz\obj\Debug\net8.0\quizz.dll
+C:\Users\arova\Documents\Study Folder\Github\.NET_quizz\obj\Debug\net8.0\refint\quizz.dll
+C:\Users\arova\Documents\Study Folder\Github\.NET_quizz\obj\Debug\net8.0\quizz.pdb
+C:\Users\arova\Documents\Study Folder\Github\.NET_quizz\obj\Debug\net8.0\quizz.genruntimeconfig.cache
+C:\Users\arova\Documents\Study Folder\Github\.NET_quizz\obj\Debug\net8.0\ref\quizz.dll

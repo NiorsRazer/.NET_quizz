@@ -8,63 +8,73 @@
     <div style="max-width: 400px; margin: auto;">
         <canvas id="scoreChart" width="300" height="300"></canvas>
     </div>
-        <form method="post" asp-page-handler="Results">
-            <button type="submit" class="btn btn-primary" name="downloadPdf">Download Results as PDF</button>
-        </form>
+    <button id="downloadPdf" class="btn btn-primary">Download Results as PDF</button>
 </div>
 
 @section Scripts {
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js"></script>
-<script>
-    document.addEventListener("DOMContentLoaded", function () {
-        var ctx = document.getElementById('scoreChart').getContext('2d');
-        var scoreChart = new Chart(ctx, {
-            type: 'pie',
-            data: {
-                labels: ['Adult Score', 'Child Score', 'Parent Score'],
-                datasets: [{
-                    label: 'Scores',
-                    data: [@Model.AdultScore, @Model.ChildScore, @Model.ParentScore],
-                    backgroundColor: [
-                        'rgba(255, 99, 132, 0.8)',
-                        'rgba(54, 162, 235, 0.8)',
-                        'rgba(75, 192, 192, 0.8)'
-                    ],
-                    borderColor: [
-                        'rgba(255, 99, 132, 1)',
-                        'rgba(54, 162, 235, 1)',
-                        'rgba(75, 192, 192, 1)'
-                    ],
-                    borderWidth: 1
-                }]
-            },
-            options: {
-                responsive: true,
-                maintainAspectRatio: false,
-                plugins: {
-                    legend: {
-                        position: 'top',
-                    },
-                    tooltip: {
-                        callbacks: {
-                            label: function (tooltipItem) {
-                                return tooltipItem.label + ': ' + tooltipItem.raw.toFixed(0);
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.4.1/jspdf.min.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var ctx = document.getElementById('scoreChart').getContext('2d');
+            var scoreChart = new Chart(ctx, {
+                type: 'pie',
+                data: {
+                    labels: ['Adult Score', 'Child Score', 'Parent Score'],
+                    datasets: [{
+                        label: 'Scores',
+                        data: [@Model.AdultScore, @Model.ChildScore, @Model.ParentScore],
+                        backgroundColor: [
+                            'rgba(255, 99, 132, 0.8)',
+                            'rgba(54, 162, 235, 0.8)',
+                            'rgba(75, 192, 192, 0.8)'
+                        ],
+                        borderColor: [
+                            'rgba(255, 99, 132, 1)',
+                            'rgba(54, 162, 235, 1)',
+                            'rgba(75, 192, 192, 1)'
+                        ],
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: {
+                            position: 'top',
+                        },
+                        tooltip: {
+                            callbacks: {
+                                label: function (tooltipItem) {
+                                    return tooltipItem.label + ': ' + tooltipItem.raw.toFixed(0);
+                                }
                             }
                         }
                     }
                 }
-            }
-        });
+            });
 
-        // Convert chart to image
-        var chartCanvas = document.getElementById('scoreChart');
-        html2canvas(chartCanvas).then(function (canvas) {
-            var imgData = canvas.toDataURL('image/png');
-            // Now imgData contains the base64 encoded image
-            // You can pass this data to the server or use it directly in the email
+            document.getElementById('downloadPdf').addEventListener('click', function () {
+                html2canvas(document.getElementById('scoreChart')).then(function (canvas) {
+                    var imgData = canvas.toDataURL('image/png');
+                    var pdf = new jsPDF('landscape');
+                    pdf.addImage(imgData, 'PNG', 10, 10, 280, 150);
+
+                     // Add text after the image
+                    var adultScore = @Model.AdultScore;
+                    var childScore = @Model.ChildScore;
+                    var parentScore = @Model.ParentScore;
+
+                    pdf.setFontSize(16);
+                    pdf.text(10, 170, `Adult Score: ${adultScore}`);
+                    pdf.text(10, 180, `Child Score: ${childScore}`);
+                    pdf.text(10, 190, `Parent Score: ${parentScore}`);
+                    
+                    pdf.save('results.pdf');
+                });
+            });
         });
-    });
-</script>
     </script>
 }
